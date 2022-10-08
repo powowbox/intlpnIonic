@@ -8,6 +8,10 @@ Implemenation is dirty for now, as i need that as soon as possible.
 
 There is as well a filter to format a number in either international or national mode.
 
+## Modification in this fork
+
+Add:
+  - attribute close-button-icon: self explainatory, use the ionic css class name.
 ## Getting Started
 1. Install the requirements
  ```bash
