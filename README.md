@@ -12,6 +12,12 @@ There is as well a filter to format a number in either international or national
 
 Add:
   - attribute close-button-icon: self explainatory, use the ionic css class name.
+
+To install run
+```
+ bower install https://github.com/powowbox/intlpnIonic.git --save
+```
+
 ## Getting Started
 1. Install the requirements
  ```bash
