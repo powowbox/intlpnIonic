@@ -394,7 +394,7 @@ angular.module('intlpnIonic', ['ionic'])
                 }
             });
 
-            $scope.closeButtonIcon = $scope.closeButtonIcon || 'ion-ios-close-empty';
+            scope.closeButtonIcon = $scope.closeButtonIcon || 'ion-ios-close-empty';
             var modalTemplate = '<ion-modal-view>' +
                 '<ion-header-bar class="'+scope.boxHeaderClass+'">' + //need to have the class before creation
                     '<h1 class="title">{{modalScope.boxHeaderTitle}}</h1>' +
