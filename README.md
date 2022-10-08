@@ -11,7 +11,7 @@ There is as well a filter to format a number in either international or national
 ## Modification in this fork
 
 Add:
-  - attribute close-button-icon: self explainatory, use the ionic css class name.
+  - attribute close-button-icon: self explainatory, use the ionic css class name. Default is ion-ios-close-empty
 
 To install run
 ```

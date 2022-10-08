@@ -264,8 +264,8 @@ angular.module('intlpnIonic', ['ionic'])
             boxHeaderTitle: '@',
             searchPlaceholder: '@',
             countryIsoCode: '=?',
-          countryDialCode: '=?',
-          closeButtonIcon: '@'
+            countryDialCode: '=?',
+            closeButtonIcon: '@'
         },
         controller: intlpnCtrl,
         link:function (scope, element, attrs, ngModelCtrl) {
@@ -393,6 +393,8 @@ angular.module('intlpnIonic', ['ionic'])
                     }
                 }
             });
+
+            $scope.closeButtonIcon = $scope.closeButtonIcon || 'ion-ios-close-empty';
             var modalTemplate = '<ion-modal-view>' +
                 '<ion-header-bar class="'+scope.boxHeaderClass+'">' + //need to have the class before creation
                     '<h1 class="title">{{modalScope.boxHeaderTitle}}</h1>' +
